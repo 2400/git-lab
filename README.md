@@ -26,7 +26,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     cd git-lab
     ```
 
-2. Create two empty (Markdown files) ```README.md``` and ```answers.md```. Markdown is similar to html but much simpler. Search online for a quick reference.
+2. Create two empty (Markdown files) ```README.md``` and ```answers.md```. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in ```answers.md``.
 
     ```sh
     touch README.md
@@ -66,7 +66,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git add --help
     ```
 
-    What happens when you type ```git --help```? Recored your answer as **Answer 3**.
+    What happens when you type ```git --help```? Record your answer as **Answer 3**.
 
 ---
 **Creating and maintaining a repository**
@@ -124,7 +124,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git add README.md
     ```
 
-    Check the status of your project and record the ouput of the command as your answer to **Answer 5**.
+    Check the status of your project and record the output of the command as your answer to **Answer 5**.
 
     Did you notice the different file name colors in the two status command? Add the second file ```answers.md`` to the staging area.
 
@@ -189,9 +189,9 @@ Git is a free and open source tool (collection of commands) that is used for ver
     **Hint:** see workflow above.
 
 
-8. Update README.md on GitHub by clicking on README.md and then clicking on the edit button. Add your class information. For example, ```CS 2400, Section 107```. At the buttom add a commit message and commit your changes.
+8. Update README.md on GitHub by clicking on README.md and then clicking on the edit button. Add your class information. For example, ```CS 2400, Section 107```. At the bottom add a commit message and commit your changes.
 
-9. Open a terminal window and look at README.md in your local directory. Were the chages you made online reflected in your local copy? Record your answer as **Answer 10**.
+9. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **Answer 10**.
 
 10. Try the push command again ```git push``. What happens? Record your answer as **Answer 11***.
 
@@ -201,10 +201,10 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git pull
     ```
 
-Look at README.md in your local directory. Were the chages you made online reflected in your local copy? Record your answer to **Answer 12**.
+Look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **Answer 12**.
 
 ----
-                                    D O N E
+                                            D O N E
 
 ----
 
