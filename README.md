@@ -1,5 +1,10 @@
-# CS 2400, Lab 2, Git/GitHub
-### Prepared by: Nasseef Abukamail (abukamai@ohio.edu)
+
+<div align="center">
+<h1> CS 2400, Lab 2, Git/GitHub</h1>
+<h4> Prepared by: Nasseef Abukamail (abukamai@ohio.edu)</h4>
+</div>
+
+---
 
 ## Version Control
 
