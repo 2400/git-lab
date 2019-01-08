@@ -1,4 +1,3 @@
-
 <div align="center">
 <h1> CS 2400, Lab 2, Git/GitHub</h1>
 <h4> Prepared by: Nasseef Abukamail (abukamai@ohio.edu)</h4>
@@ -78,7 +77,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ---
 
-4. In a terminal window go to the ```git-lab``` directory.
+6. In a terminal window go to the ```git-lab``` directory.
 
     ```
     cd ~/2400/git-lab
@@ -147,7 +146,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     The above workflow outlines the steps that you usually take to create a commit (snapshot) of your repository at any given time.
 
-5. View the repository history (commits). Issue the ```log``` command.
+7. View the repository history (commits). Issue the ```log``` command.
 
     ```sh
     git log
@@ -165,7 +164,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ---
 
-6. Open a browser window and go to GitHub (```https://github.com```), login if necessary.
+8. Open a browser window and go to GitHub (```https://github.com```), login if necessary.
 
     * Create a new *public* repository (click the + symbol on the top right).
     * Name your repository ```git-lab```
@@ -189,24 +188,90 @@ Git is a free and open source tool (collection of commands) that is used for ver
     Check the status of your repository. Record the output as **Answer 9**.
 
 
-7. Update README.md locally. Add your email address and a message informing your TA where you recorded your answers. At the terminal ```push``` your changes to GitHub.
+9. Update README.md locally. Add your email address and a message informing your TA where you recorded your answers. At the terminal ```push``` your changes to GitHub.
 
     **Hint:** see workflow above.
 
 
-8. Update README.md on GitHub by clicking on README.md and then clicking on the edit button. Add your class information. For example, ```CS 2400, Section 107```. At the bottom add a commit message and commit your changes.
+10. Update README.md on GitHub by clicking on README.md and then clicking on the edit button. Add your class information. For example, ```CS 2400, Section 107```. At the bottom add a commit message and commit your changes.
 
-9. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **Answer 10**.
+11. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **Answer 10**.
 
-10. Try the push command again ```git push``. What happens? Record your answer as **Answer 11**.
+12. Try the push command again ```git push``. What happens? Record your answer as **Answer 11**.
 
-10. Open the terminal window and ```pull``` your remote changes to your local repository. Issue the command:
+13. Open the terminal window and ```pull``` your remote changes to your local repository. Issue the command:
 
     ```sh
     git pull
     ```
 
 Look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **Answer 12**.
+
+---
+**Cloning a Repository**
+
+---
+The ```git clone``` command downloads an existing repository to your local machine. This is something you will do often. You will be asked to clone a repository, work on it, and push your changes online. Let's try it.
+
+14. Go online to GitHub
+
+    * Create a new repository
+      * Name your repository ```git-lab-2```
+      * Select ```Public```
+      * Check ```Initialize this repository with a README```
+      * click on ```Add .gitignore: None``` button and select ```C++```
+      * Click ```Create repository``` button
+
+    * click on the clone button and copy the link
+    * Open a terminal window and go to your 2400 directory and clone the repository
+        ```
+        cd ~/2400
+        git clone <link you copied above>
+        ```
+    * This should download the repository directory to you machine. The directory should be called ```git-lab-2```.
+    * Go to the new repo's directory and issue the ```ls -a`` command. Record the output as your **Answer 13**.
+    * The file ```.gitignore``` has a list of files that ```git``` will ignore when pushing the repo. For example, it ignores executable files.
+
+15. Let create a C++ program and update the online master branch.
+
+    * In your editor, create the file ```git-lab-program.cc```.
+    * Copy the following code into it
+
+        ```cpp
+        /*
+        *        File: git-lab-program.cc
+        *      Author: <Enter your name>
+        *        Date: <Enter today's date>
+        * Description: Add Description
+        */
+
+        #include <iostream>
+        #include <iomanip>
+        #include <cstdlib>
+        using namespace std;
+
+
+        int main(int argc, char const *argv[]) {
+
+            /*add code*/
+            return 0;
+        }// main
+        ```
+
+        * Add your name and today's date in the comments
+        * Add the line ```cout << "Hello Git!!" << endl;``` in the main function
+        * Save your program
+        * Compile and run the program using the commands:
+
+        ```sh
+        g++ -Wall git-lab-program.cc
+        ./a.out
+        ```
+
+    * Did you get the right output? If not, fix your program and try again
+    * Add, commit, and push your changes to GitHub (See Workflow above)
+    * Go to your repository on GitHub
+    * Are the changes you made online?
 
 ----
 
