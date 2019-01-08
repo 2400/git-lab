@@ -31,7 +31,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     cd git-lab
     ```
 
-2. Create two empty (Markdown files) ```README.md``` and ```answers.md```. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in ```answers.md``.
+2. Create two empty (Markdown files) ```README.md``` and ```answers.md```. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in ```answers.md```.
 
     ```sh
     touch README.md
@@ -115,13 +115,9 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     Let's modify the first file. Normally in a repo we start by creating a README.md file (created in step 2). Edit the README.md file and type your full name and save it.
 
-    One of the common commands we use is to check the status of our repo. The command is:
+    One of the common commands we use is to check the status of our repo is the ```git status``` command.
 
-    ```sh
-    git status
-    ```
-
-    Type the above command inside the ```git-lab``` directory and record the output of this command as **```Answer 4```**.
+    Type the status command inside the ```git-lab``` directory and record the output of this command as **```Answer 4```**.
 
     You now have an untracked file in your working area. Let's track the file by staging it. Issue the command:
 
@@ -131,11 +127,11 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     Check the status of your project and record the output of the command as your answer to **```Answer 5```**.
 
-    Did you notice the different file name colors in the two status command? Add the second file ```answers.md`` to the staging area.
+    Did you notice the different file name colors in the two status command? Add the second file ```answers.md``` to the staging area.
 
     Check the status again and record your output as **```Answer 6```**.
 
-    You files are now ready to be committed. Issue the commit command:
+    Your files are now ready to be committed. Issue the commit command:
 
     ```sh
     git commit -m "Initial commit"
@@ -184,7 +180,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
       git push -u origin master
       ```
 
-    Watch the output to make sure you did not get any errors. Your repo should be updated on GitHub. Refresh your browser to see your ```README.md``` and ```answers.md`` files on GitHub.
+    Watch the output to make sure you did not get any errors. Your repo should be updated on GitHub. Refresh your browser to see your ```README.md``` and ```answers.md``` files on GitHub.
 
     Check the status of your repository. Record the output as **```Answer 9```**.
 
@@ -194,13 +190,13 @@ Git is a free and open source tool (collection of commands) that is used for ver
     **Hint:** see workflow above.
 
 
-10. Update README.md on GitHub by clicking on README.md and then clicking on the edit button. Add your class information. For example, ```CS 2400, Section 107```. At the bottom add a commit message and commit your changes.
+10. Open your browser and go to GitHub. Update ```README.md``` on GitHub by clicking on ```README.md``` and then clicking on the edit button. Add your class information. For example, ```CS 2400, Section 107```. At the bottom add a commit message and commit your changes.
 
 11. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **```Answer 10```**.
 
-12. Try the push command again ```git push``. What happens? Record your answer as **```Answer 11```**.
+12. Try the push command again ```git push```. What happens? Record your answer as **```Answer 11```**.
 
-13. Open the terminal window and ```pull``` your remote changes to your local repository. Issue the command:
+13. Open the terminal window and ```pull``` your remote changes to your local repository. This is what you would normally do when the online version of your repo changes while you're working on your local one. Issue the command:
 
     ```sh
     git pull
@@ -230,7 +226,7 @@ The ```git clone``` command downloads an existing repository to your local machi
         git clone <link you copied above>
         ```
     * This should download the repository directory to you machine. The directory should be called ```git-lab-2```.
-    * Go to the new repo's directory and issue the ```ls -a``` command. Record the output as your **```Answer 13```**.
+    * Go to the new repo's directory and issue the ```ls -a``` command. Record the output as **```Answer 13```**.
     * The file ```.gitignore``` has a list of files that ```git``` will ignore when pushing the repo. For example, it ignores executable files.
 
 15. Lets create a C++ program and update the online master branch.
@@ -272,7 +268,7 @@ The ```git clone``` command downloads an existing repository to your local machi
     * Did you get the right output? If not, fix your program and try again
     * Add, commit, and push your changes to GitHub (See Workflow above)
     * Go to your repository on GitHub
-    * Are the changes you made online?
+    * Are the changes you made reflected online? If not, try again or ask your TA.
 
     **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
 ----
