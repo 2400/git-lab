@@ -205,6 +205,7 @@ Look at README.md in your local directory. Were the changes you made online refl
 
 ----
 
-<p style="text-align: center;"> D O N E </p>
-
+<div align="center">
+ D O N E
+</div>
 ----
