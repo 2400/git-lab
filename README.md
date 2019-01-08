@@ -10,11 +10,10 @@ A repository includes a chronological record of all the changes made to a projec
 
 ## Git
 
-What is Git?
-
 Git is a free and open source tool (collection of commands) that is used for version control. It is the most commonly used version control system in the industry. It allows for easy management of individual and team projects. It will allow multiple people to work on the same project without worrying about their changes being overwritten (lost).
 
 ## Lab Assignment
+---
 
 Record your answers to each of the following excersises. Submit your answers to your TA.
 
@@ -37,6 +36,8 @@ Record your answers to each of the following excersises. Submit your answers to 
     git config --list
     ```
 
+    Record the output of this command as your answer to **Question 2**.
+
 3. Git includes a comprehensive help system. You can invoke command help by issuing the following command
 
     ```sh
@@ -50,8 +51,10 @@ Record your answers to each of the following excersises. Submit your answers to 
 
     What happens when you type ```git --help```? Recored your answer to **Question 1**.
 
-
+---
 **Creating and maintaining a repository**
+
+---
 
 4. Create a subdirectory under your ```2400``` directory called ```git-lab```.
 
@@ -96,7 +99,7 @@ Record your answers to each of the following excersises. Submit your answers to 
     git status
     ```
 
-    Type the above command inside the ```git-lab``` directory and record the output of this command as your answer to **Question 3**.
+    Type the above command inside the ```git-lab``` directory and record the output of this command as your answer to **Question 4**.
 
     You now have an untracked file in your working area. Let's track the file by staging it. Issue the command:
 
@@ -104,7 +107,7 @@ Record your answers to each of the following excersises. Submit your answers to 
     git add README.md
     ```
 
-    Check the status of your project and record the ouput of the command as your answer to **Question 4**.
+    Check the status of your project and record the ouput of the command as your answer to **Question 5**.
 
     Did you notice the different file name colors in the two status command? You file is now ready to be committed. Issue the commit command:
 
@@ -114,7 +117,7 @@ Record your answers to each of the following excersises. Submit your answers to 
 
     Messages in the commit command is very important. It describes what has happened since the last commit. It is specially helpful when working with teammates on the same project.
 
-    Issue the status command again and record your output as your answer to **Question 5**.
+    Issue the status command again and record your output as your answer to **Question 6**.
 
     These are the steps that you usually take to create a commit (snapshot) for your repository.
 
@@ -129,6 +132,35 @@ Record your answers to each of the following excersises. Submit your answers to 
     * ```HEAD->master```: a pointer to a repository called ```master```. Master is your main repository ```branch``` name. More on branching later.
     * Author, email, date, and comment made while committing.
 
-    Record the output of the ```git log``` as your answer to **Question 6**.
+    Record the output of the ```git log``` as your answer to **Question 7**.
+
+---
+**Working with remote repositories on GitHub**
+
+---
+
+6. Open a browser window and go to GitHub (```https://github.com```), login if necessary.
+
+    * Create a new *public* repository (click the + symbol on the top right).
+    * Name your repository ```git-lab```
+    * Do not select anything else.
+    * Click on ```Create repository``` button.
+    * Now you have an empty repository called ```git-lab```. You should see two instructions on how to ```push an existing repository from the command line```. These are the commands you need to push your local repository to GitHub.
+    * Let's try the commands:
+
+    ```sh
+    git remote add origin git@github.com:<user-name>/git-lab.git
+    git push -u origin master
+    ```
+    or
+
+    ```sh
+    git remote add origin https://github.com/2400/git-lab.git
+    git push -u origin master
+    ```
+
+    Watch the output to make sure you did not get any errors. Your repo should be updated on GitHub. Refresh your browser to see your ```README.md``` file on GitHub.
+
+    
 
 
