@@ -23,9 +23,21 @@ Record your answers to each of the following excersises. Submit your answers to 
     ```sh
     git --version
     ```
-    Record the output of the command in your answer sheet (Q1).
+    Record the output of the command as your answer to **Question 1**.
 
-2. Git includes a comprehensive help system. You can invoke command help by issuing the following command
+2. Git needs to know your information (name and email). Issue the commands:
+
+    ```sh
+    git config --global user.name "Your name"
+    git config --global user.email "Your email"
+    ```
+    You can verify the changes by issuing the command:
+
+    ```sh
+    git config --list
+    ```
+
+3. Git includes a comprehensive help system. You can invoke command help by issuing the following command
 
     ```sh
     git <command> --help
@@ -36,12 +48,12 @@ Record your answers to each of the following excersises. Submit your answers to 
     git add --help
     ```
 
-    What happens when you type ```git --help```? Recored your answer (Q2).
+    What happens when you type ```git --help```? Recored your answer to **Question 1**.
 
 
 **Creating and maintaining a repository**
 
-3. Create a subdirectory under your ```2400``` directory called ```git-lab```.
+4. Create a subdirectory under your ```2400``` directory called ```git-lab```.
 
     ```sh
     cd 2400
@@ -84,7 +96,7 @@ Record your answers to each of the following excersises. Submit your answers to 
     git status
     ```
 
-    Type the above command inside the ```git-lab``` directory and record the output of this command as your answer to Q3.
+    Type the above command inside the ```git-lab``` directory and record the output of this command as your answer to **Question 3**.
 
     You now have an untracked file in your working area. Let's track the file by staging it. Issue the command:
 
@@ -92,7 +104,7 @@ Record your answers to each of the following excersises. Submit your answers to 
     git add README.md
     ```
 
-    Check the status of your project and record the ouput of the command as your answer to Q4.
+    Check the status of your project and record the ouput of the command as your answer to **Question 4**.
 
     Did you notice the different file name colors in the two status command? You file is now ready to be committed. Issue the commit command:
 
@@ -102,6 +114,21 @@ Record your answers to each of the following excersises. Submit your answers to 
 
     Messages in the commit command is very important. It describes what has happened since the last commit. It is specially helpful when working with teammates on the same project.
 
-    Issue the status command again and record your output as your answer to Q5.
+    Issue the status command again and record your output as your answer to **Question 5**.
+
+    These are the steps that you usually take to create a commit (snapshot) for your repository.
+
+5. View the repository history (commits). Issue the ```log``` command.
+
+    ```sh
+    git log
+    ```
+
+    The output should include your commits' information including:
+    * Hash value (```0c6112a...```).
+    * ```HEAD->master```: a pointer to a repository called ```master```. Master is your main repository ```branch``` name. More on branching later.
+    * Author, email, date, and comment made while committing.
+
+    Record the output of the ```git log``` as your answer to **Question 6**.
 
 
