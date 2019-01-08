@@ -1,5 +1,6 @@
 <div align="center">
 <h1> CS 2400, Lab 2, Git/GitHub</h1>
+<h4> 100 Points</h4>
 <h4> Prepared by: Nasseef Abukamail (abukamai@ohio.edu)</h4>
 </div>
 
@@ -43,7 +44,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     ```sh
     git --version
     ```
-    Record the output of the command as **Answer 1**.
+    Record the output of the command as **```Answer 1```**.
 
 4. Git needs to know your information (name and email). Issue the commands:
 
@@ -57,7 +58,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git config --list
     ```
 
-    Record the output of this command as **Answer 2**.
+    Record the output of this command as **```Answer 2```**.
 
 5. Git includes a comprehensive help system. You can invoke help by issuing the following command
 
@@ -70,7 +71,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git add --help
     ```
 
-    What happens when you type ```git --help```? Record your answer as **Answer 3**.
+    What happens when you type ```git --help```? Record your answer as **```Answer 3```**.
 
 ---
 **Creating and maintaining a repository**
@@ -120,7 +121,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git status
     ```
 
-    Type the above command inside the ```git-lab``` directory and record the output of this command as **Answer 4**.
+    Type the above command inside the ```git-lab``` directory and record the output of this command as **```Answer 4```**.
 
     You now have an untracked file in your working area. Let's track the file by staging it. Issue the command:
 
@@ -128,11 +129,11 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git add README.md
     ```
 
-    Check the status of your project and record the output of the command as your answer to **Answer 5**.
+    Check the status of your project and record the output of the command as your answer to **```Answer 5```**.
 
     Did you notice the different file name colors in the two status command? Add the second file ```answers.md`` to the staging area.
 
-    Check the status again and record your output as **Answer 6**.
+    Check the status again and record your output as **```Answer 6```**.
 
     You files are now ready to be committed. Issue the commit command:
 
@@ -142,7 +143,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     Messages in the commit command is very important. It describes what has happened since the last commit. It is specially helpful when working with teammates on the same project.
 
-    Issue the status command again and record your output as **Answer 7**.
+    Issue the status command again and record your output as **```Answer 7```**.
 
     The above workflow outlines the steps that you usually take to create a commit (snapshot) of your repository at any given time.
 
@@ -157,7 +158,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     * ```HEAD->master```: a pointer to a repository called ```master```. ```master``` is your main repository ```branch``` name. More on branching later.
     * Author, email, date, and comment made while committing.
 
-    Record the output of the ```git log``` as **Answer 8**.
+    Record the output of the ```git log``` as **```Answer 8```**.
 
 ---
 **Working with remote repositories on GitHub**
@@ -185,7 +186,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     Watch the output to make sure you did not get any errors. Your repo should be updated on GitHub. Refresh your browser to see your ```README.md``` and ```answers.md`` files on GitHub.
 
-    Check the status of your repository. Record the output as **Answer 9**.
+    Check the status of your repository. Record the output as **```Answer 9```**.
 
 
 9. Update README.md locally. Add your email address and a message informing your TA where you recorded your answers. At the terminal ```push``` your changes to GitHub.
@@ -195,9 +196,9 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 10. Update README.md on GitHub by clicking on README.md and then clicking on the edit button. Add your class information. For example, ```CS 2400, Section 107```. At the bottom add a commit message and commit your changes.
 
-11. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **Answer 10**.
+11. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **```Answer 10```**.
 
-12. Try the push command again ```git push``. What happens? Record your answer as **Answer 11**.
+12. Try the push command again ```git push``. What happens? Record your answer as **```Answer 11```**.
 
 13. Open the terminal window and ```pull``` your remote changes to your local repository. Issue the command:
 
@@ -205,7 +206,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git pull
     ```
 
-Look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **Answer 12**.
+Look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **```Answer 12```**.
 
 ---
 **Cloning a Repository**
@@ -223,16 +224,16 @@ The ```git clone``` command downloads an existing repository to your local machi
       * Click ```Create repository``` button
 
     * click on the clone button and copy the link
-    * Open a terminal window and go to your 2400 directory and clone the repository
+    * Open a terminal window and go to your 2400 directory and clone the repository. You will normally do this for most homework projects.
         ```
         cd ~/2400
         git clone <link you copied above>
         ```
     * This should download the repository directory to you machine. The directory should be called ```git-lab-2```.
-    * Go to the new repo's directory and issue the ```ls -a`` command. Record the output as your **Answer 13**.
+    * Go to the new repo's directory and issue the ```ls -a``` command. Record the output as your **```Answer 13```**.
     * The file ```.gitignore``` has a list of files that ```git``` will ignore when pushing the repo. For example, it ignores executable files.
 
-15. Let create a C++ program and update the online master branch.
+15. Lets create a C++ program and update the online master branch.
 
     * In your editor, create the file ```git-lab-program.cc```.
     * Copy the following code into it
@@ -273,6 +274,7 @@ The ```git clone``` command downloads an existing repository to your local machi
     * Go to your repository on GitHub
     * Are the changes you made online?
 
+    I encourage you to learn more about Git. It is an essential tool for every CS student.
 ----
 
 <div align="center">
