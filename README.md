@@ -203,6 +203,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 Look at README.md in your local directory. Were the chages you made online reflected in your local copy? Record your answer to **Answer 12**.
 
 ----
-End of the lab.
+                                    D O N E
+
 ----
 
