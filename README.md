@@ -193,7 +193,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 9. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **Answer 10**.
 
-10. Try the push command again ```git push``. What happens? Record your answer as **Answer 11***.
+10. Try the push command again ```git push``. What happens? Record your answer as **Answer 11**.
 
 10. Open the terminal window and ```pull``` your remote changes to your local repository. Issue the command:
 
@@ -204,7 +204,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 Look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **Answer 12**.
 
 ----
-                                            D O N E
+
+<p style="text-align: center;"> D O N E </p>
 
 ----
-
