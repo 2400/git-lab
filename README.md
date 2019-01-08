@@ -274,7 +274,7 @@ The ```git clone``` command downloads an existing repository to your local machi
     * Go to your repository on GitHub
     * Are the changes you made online?
 
-    **I encourage you to learn more about Git. It is an essential tool for every CS student.**
+    **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
 ----
 
 <div align="center">
