@@ -100,18 +100,18 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     **Workflow**
 
-    Locally, Git has three areas: ```Working``` directory, ```staging``` area, and ```committed``` area.
-    * **Working directory**
+    Locally, Git has three areas: ```Working``` directory (also called Index), ```Staging``` area, and ```Repository commit area``` area.
+    * **Working directory (tree)**
 
         Any changes you make to your files (including adding new files) will be in this area. Newly created files will be considered ```untracked```.
 
-    * **Staging area**
+    * **Staging area (index)**
 
         Files will be ```tracked``` and changes will be ready to be committed.
 
-    * **Committed area (commits)**
+    * **Repository Commit area (History)**
 
-        Once files are committed, they are tracked by the git system and a snapshot of your repository is created. Each snapshot is identified by a *hash* string.
+        Once files are committed, they become part of the repository history. They are tracked by the git system and a snapshot of your repository is created. Each snapshot is identified by a *hash* string.
 
     Let's modify the first file. Normally in a repo we start by creating a README.md file (created in step 2). Edit the README.md file and type your full name and save it.
 
