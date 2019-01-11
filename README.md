@@ -41,20 +41,20 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 3. In a terminal window find out what version of git is installed on the system.
 
-    ```sh
+    ```console
     git --version
     ```
     Record the output of the command as **```Answer 1```**.
 
 4. Git needs to know your information (name and email). Issue the commands:
 
-    ```sh
+    ```console
     git config --global user.name "Your name"
     git config --global user.email "Your email"
     ```
     You can verify the changes by issuing the command:
 
-    ```sh
+    ```console
     git config --list
     ```
 
@@ -62,12 +62,12 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 5. Git includes a comprehensive help system. You can invoke help by issuing the following command
 
-    ```
+    ```console
     git <command> --help
     ```
     replace ```<command>``` with any git command. Try the following:
 
-    ```
+    ```console
     git add --help
     ```
 
@@ -80,19 +80,19 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 6. In a terminal window go to the ```git-lab``` directory.
 
-    ```
+    ```console
     cd ~/2400/git-lab
     ```
     We will use the directory ```git-lab``` as our local repository. Issue the command:
 
-    ```
+    ```console
     ls -a
     ```
     ```-a``` option allows you to see hidden files and directories (files and directories names that start with a period). In addition to the two files you created in step 2, you should see two hidden entries ```.``` and ```..```. These are relative names for the current directory and the parent directory.
 
     **Make ```git-lab``` a repo by issuing the following command:**
 
-    ```sh
+    ```console
     git init
     ```
 
@@ -121,7 +121,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     You now have an untracked file in your working area. Let's track the file by staging it. Issue the command:
 
-    ```sh
+    ```console
     git add README.md
     ```
 
@@ -133,7 +133,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     Your files are now ready to be committed. Issue the commit command:
 
-    ```sh
+    ```console
     git commit -m "Initial commit"
     ```
 
@@ -145,7 +145,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 7. View the repository history (commits). Issue the ```log``` command.
 
-    ```sh
+    ```console
     git log
     ```
 
@@ -170,7 +170,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     * Now you have an empty repository called ```git-lab```. You should see two instructions on how to ```push an existing repository from the command line```. These are the commands you need to push your local repository to GitHub.
     * Let's try the commands:
 
-      ```sh
+      ```console
       git remote add origin git@github.com:<user-name>/git-lab.git
       git push -u origin master
 
@@ -198,7 +198,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 13. Open the terminal window and ```pull``` your remote changes to your local repository. This is what you would normally do when the online version of your repo changes while you're working on your local one. Issue the command:
 
-    ```sh
+    ```console
     git pull
     ```
 
@@ -221,7 +221,7 @@ The ```git clone``` command downloads an existing repository to your local machi
 
     * click on the clone button and copy the link
     * Open a terminal window and go to your 2400 directory and clone the repository. You will normally do this for most homework projects.
-        ```
+        ```console
         cd ~/2400
         git clone <link you copied above>
         ```
@@ -260,7 +260,7 @@ The ```git clone``` command downloads an existing repository to your local machi
         * Save your program
         * Compile and run the program using the commands:
 
-        ```sh
+        ```console
         g++ -Wall git-lab-program.cc
         ./a.out
         ```
