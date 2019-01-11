@@ -25,7 +25,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 1. Create the project directory. Open a terminal window and issue the commands:
 
-    ```
+    ```console
     cd ~/2400
     mkdir git-lab
     cd git-lab
@@ -33,7 +33,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 2. Create two empty (Markdown files) ```README.md``` and ```answers.md```. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in ```answers.md```.
 
-    ```sh
+    ```console
     touch README.md
     touch answers.md
     ```
