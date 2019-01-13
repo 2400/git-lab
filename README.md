@@ -272,7 +272,10 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Add, commit, and push your changes to GitHub (See Workflow above)
     * Go to your repository on GitHub
     * Are the changes you made reflected online? If not, try again or ask your TA.
-    * **Last Step:** Email your TA the location of your repository on GitHub. Put "Lab 2 Location" in the subject line.
+    * **Last Steps:**
+      * Edit the file `README.md` and write the word `Done` in the file.
+      * Type your comment under `Commit changes` and tag your TA by entering `\@<TA-username>`.
+      * Click `Commit changes` button.
 
     **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
 ----
