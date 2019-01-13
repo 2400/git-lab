@@ -211,7 +211,9 @@ Look at README.md in your local directory. Were the changes you made online refl
 **Cloning a Repository**
 
 ---
-The `git clone` command downloads an existing repository to your local machine. This is something you will do often. You will be asked to clone a repository, work on it, and push your changes online. Let's try it.
+The `git clone` command downloads an existing repository to your local machine.
+
+> This is something you will do often. You will be asked to clone a repository, work on it, and push your changes online. Let's try it.
 
 14. Go online to GitHub
 
