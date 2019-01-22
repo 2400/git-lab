@@ -22,7 +22,9 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ## Lab Assignment
 
-   ### Record your answers, where indicated, in a file called `answers.md`. Each answer is worth 5 points.
+---
+
+### Record your answers, where indicated, in a file called `answers.md`. Each answer is worth 5 points.
 
 1. Create the project directory. Open a terminal window and issue the commands:
 
@@ -189,9 +191,11 @@ Git is a free and open source tool (collection of commands) that is used for ver
     Check the status of your repository. Record the output as **`Answer 9`**.
 
 
-9. Update `README.md` locally. Add your email address and a message informing your TA where you recorded your answers. At the terminal `push` your changes to GitHub.
+9. Update `README.md` locally. Add your email address and a message informing your TA where you recorded your answers. At the terminal, add `README.md`, `commit` the changes, and  `push` your changes to GitHub.
 
     ```console
+    git add README.md
+    git commit -m "Enter a message here"
     git push
     ```
     > You may have to enter your GitHub credentials here.
