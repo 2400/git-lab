@@ -283,6 +283,7 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Add `README.md` to the staging area
     * Add `answers.md` to the staging area
     * Commit the changes and tag your TA in the commit message by entering  `@<TA-username>`
+    * Push your changes to GitHub
 
     **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
 ---
