@@ -275,14 +275,14 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Add, commit, and push your changes to GitHub (See Workflow above)
     * Go to your repository on GitHub
     * Are the changes you made reflected online? If not, try again or ask your TA.
-    * **Last Steps:**
+* **Last Steps:**
 
-      * Go to the `git-lab` directory
-      * Edit the file `README.md` and write the word `Done` in the file
-      * Make sure the files `README.md` and `answers.md` are saved
-      * Add `README.md` to the staging area
-      * Add `answers.md` to the staging area
-      * Commit the changes and tag your TA in the commit message by entering  `@<TA-username>`
+    * Go to the `git-lab` directory
+    * Edit the file `README.md` and write the word `Done` in the file
+    * Make sure the files `README.md` and `answers.md` are saved
+    * Add `README.md` to the staging area
+    * Add `answers.md` to the staging area
+    * Commit the changes and tag your TA in the commit message by entering  `@<TA-username>`
 
     **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
 ---
