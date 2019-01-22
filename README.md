@@ -171,15 +171,16 @@ Git is a free and open source tool (collection of commands) that is used for ver
     * Now you have an empty repository called `git-lab`. You should see two instructions on how to `push an existing repository from the command line`. These are the commands you need to push your local repository to GitHub.
     * Let's try the commands:
 
+
       ```console
-      git remote add origin git@github.com:<user-name>/git-lab.git
+      git remote add origin https://github.com/<user-name>/git-lab.git
       git push -u origin master
       ```
 
       or
 
       ```console
-      git remote add origin https://github.com/<user-name>/git-lab.git
+      git remote add origin git@github.com:<user-name>/git-lab.git
       git push -u origin master
       ```
 
@@ -188,14 +189,16 @@ Git is a free and open source tool (collection of commands) that is used for ver
     Check the status of your repository. Record the output as **`Answer 9`**.
 
 
-9. Update README.md locally. Add your email address and a message informing your TA where you recorded your answers. At the terminal `push` your changes to GitHub.
+9. Update `README.md` locally. Add your email address and a message informing your TA where you recorded your answers. At the terminal `push` your changes to GitHub.
 
-    **Hint:** see workflow above.
+    ```console
+    git push
+    ```
 
 
 10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 107`. At the bottom add a commit message and commit your changes.
 
-11. Open a terminal window and look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **`Answer 10`**.
+11. Open a terminal window and look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **`Answer 10`**.
 
 12. Try the push command again `git push`. What happens? Record your answer as **`Answer 11`**.
 
@@ -205,7 +208,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     git pull
     ```
 
-Look at README.md in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **`Answer 12`**.
+Look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **`Answer 12`**.
 
 ---
 **Cloning a Repository**
@@ -274,7 +277,9 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Are the changes you made reflected online? If not, try again or ask your TA.
     * **Last Steps:**
 
+      * Go to the `git-lab` directory
       * Edit the file `README.md` and write the word `Done` in the file
+      * Make sure the files `README.md` and `answers.md` are saved
       * Add `README.md` to the staging area
       * Add `answers.md` to the staging area
       * Commit the changes and tag your TA in the commit message by entering  `@<TA-username>`
