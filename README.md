@@ -194,7 +194,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     ```console
     git push
     ```
-
+    > You may have to enter your GitHub credentials here.
 
 10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 107`. At the bottom add a commit message and commit your changes.
 
