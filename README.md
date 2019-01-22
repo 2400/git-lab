@@ -242,11 +242,11 @@ The `git clone` command downloads an existing repository to your local machine. 
 
         ```cpp
         /*
-        *        File: git-lab-program.cc
-        *      Author: <Enter your name>
-        *        Date: <Enter today's date>
-        * Description: Add Description
-        */
+         *        File: git-lab-program.cc
+         *      Author: <Enter your name>
+         *        Date: <Enter today's date>
+         * Description: Add Description
+         */
 
         #include <iostream>
         #include <iomanip>
