@@ -116,7 +116,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
         Once files are committed, they become part of the repository history. They are tracked by the git system and a snapshot of your repository is created. Each snapshot is identified by a *hash* string.
 
-    Let's modify the first file. Normally in a repo we start by creating a README.md file (created in step 2). Edit the README.md file and type your **full name** and your **GitHub user name** and save it.
+    Let's modify the first file. Normally in a repo we start by creating a `README.md` file (created in step 2). Edit the `README.md` file and type your **full name** and your **GitHub user name** and save it.
 
     One of the common commands we use is to check the status of our repo is the `git status` command.
 
