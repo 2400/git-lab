@@ -290,7 +290,7 @@ The `git clone` command downloads an existing repository to your local machine. 
       * Click on commits
       * Click on the last commit
       * Scroll down to the comment section and tag me by entering `@nasseef, I'm done`
-      * Click "Comment on this commit"
+      * Click on the button: `Comment on this commit`
     * Push your changes to GitHub
 
     **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
