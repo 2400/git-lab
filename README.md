@@ -286,12 +286,13 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Make sure the files `README.md` and `answers.md` are saved
     * Add `README.md` to the staging area
     * Add `answers.md` to the staging area
-    * Commit the changes and tag me `@nasseef` in the comment section of the commit.
-      * Click on commits
-      * Click on the last commit
+     * Push your changes to GitHub
+    * Go to your repository on GitHub and tag me `@nasseef` in the comment section of the commit.
+      * Click on `commits`
+      * Click on the last commit (top one)
       * Scroll down to the comment section and tag me by entering `@nasseef, I'm done`
       * Click on the button: `Comment on this commit`
-    * Push your changes to GitHub
+
 
     **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
 ---
