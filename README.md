@@ -5,7 +5,7 @@
 ### Prepared by: Nasseef Abukamail (abukamai@ohio.edu)
 
 ---
-### It is important that you follow the instructions in the order given.###
+### It is important that you follow the instructions in the order given.
 
 ## Version Control
 
