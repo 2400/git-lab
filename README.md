@@ -47,16 +47,17 @@ Git is a free and open source tool (collection of commands) that is used for ver
     ```
 
 5. Create two empty files (Markdown files) `README.md` and `answers.md` using your favorite editor and save them inside the `git-lab` directory. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in `answers.md`.
+6. From this point on, you can edit these files using `VS Code`. In `VS Code`. Under the `File` menu, choose `Open Folder` and select `git-lab` folder. 
 
 
-6. In a terminal window find out what version of git is installed on the system.
+7. In a terminal window find out what version of git is installed on the system. You can start a terminal window from within `VS Code` by clicking on `Terminal` menu and selecting `New Terminal`.
 
     ```console
     git --version
     ```
     Record the output of the command as **`Answer 1`**.
 
-7. Git needs to know your information (name and email). Issue the commands:
+8. Git needs to know your information (name and email). Issue the commands:
 
     ```console
     git config --global user.name "Your name"
@@ -70,7 +71,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
     Record the output of this command as **`Answer 2`**.
 
-8. Git includes a comprehensive help system. You can invoke help by issuing the following command
+9. Git includes a comprehensive help system. You can invoke help by issuing the following command
 
     ```console
     git <command> --help
