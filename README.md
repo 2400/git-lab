@@ -27,11 +27,11 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ### Record your answers, where indicated, in a file called `answers.md`. Each answer is worth 5 points.
 
-1. Create a `cs2400` directory on your `Desktop`. From this point on, you will place all your homework and lab assignments in this directory.
+1. Create a directory (folder) called `cs2400` on your `Desktop`. From this point on, you will place all your homework and lab assignments in this directory.
 
 2. Create the project directory. Open a terminal window
-   1. In Windows, open `Powershell`
-   2. In Mac and Linus open `Terminal`
+   - In Windows, open `Powershell`
+   - In Mac and Linux open `Terminal`
 3. You can navigate directly to `cs2400` directory by issueing the following command:
    ```console
    cd ~/Desktop/cs2400
@@ -46,7 +46,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     cd git-lab
     ```
 
-5. Create two empty (Markdown files) `README.md` and `answers.md` using your favorite editor. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in `answers.md`.
+5. Create two empty files (Markdown files) `README.md` and `answers.md` using your favorite editor and save them inside the `git-lab` directory. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in `answers.md`.
 
 
 6. In a terminal window find out what version of git is installed on the system.
