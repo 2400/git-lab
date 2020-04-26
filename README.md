@@ -1,6 +1,5 @@
-## CS 2400, Homework 1, Git/GitHub
+## CS 2400, Git/GitHub Assignment/Lab
 
-### 20 Points
 
 ### Prepared by: Nasseef Abukamail (abukamai@ohio.edu)
 
@@ -21,7 +20,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ---
 
-## Homework Assignment
+## Assignment
 
 ---
 
