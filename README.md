@@ -1,4 +1,4 @@
-## CS 2400, Lab 2, Git/GitHub
+## CS 2400, Git/GitHub
 
 ### 100 Points
 
@@ -97,8 +97,11 @@ Git is a free and open source tool (collection of commands) that is used for ver
     We will use the directory `git-lab` as our local repository. Issue the command:
 
     ```console
-    ls -a
+    ls -a       (Mac/Linux)
+    gci         (Windows)
     ```
+
+
     `-a` option allows you to see hidden files and directories (files and directories names that start with a period). In addition to the two files you created in step 2, you should see two hidden entries `.` and `..`. These are relative names for the current directory and the parent directory.
 
     **Make `git-lab` a repo by issuing the following command:**
