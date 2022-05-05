@@ -26,10 +26,9 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ### Record your answers, where indicated, in a file called `answers.md`. Each answer is worth 5 points.
 
-1. Create the project directory. Open a terminal window and issue the commands:
+1. Create the project directory. Open a terminal window or a PowerShell window and issue the commands:
 
     ```console
-    cd ~/2400
     mkdir git-lab
     cd git-lab
     ```
