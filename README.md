@@ -88,10 +88,10 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ---
 
-6. In a terminal window go to the `git-lab` directory.
+6. In a terminal/PowerShell window go to the `git-lab` directory.
 
     ```console
-    cd ~/2400/git-lab
+    cd git-lab
     ```
     We will use the directory `git-lab` as our local repository. Issue the command:
 
