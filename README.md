@@ -22,6 +22,8 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ## Lab Assignment
 
+### Requirement
+Make sure you have a GitHub account, and your (Personal Access Token has been setup)[https://github.com/nasseef/cs/blob/main/docs/GitHub-token.md].
 ---
 
 ### Record your answers, where indicated, in a file called `answers.md`. Each answer is worth 5 points.
@@ -285,7 +287,7 @@ The `git clone` command downloads an existing repository to your local machine. 
 
         ```console
         g++ -Wall git-lab-program.cc
-        ./a.exe or ./a.out
+        ./a.out
         ```
 
     * Did you get the right output? If not, fix your program and try again
