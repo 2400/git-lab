@@ -307,7 +307,7 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Go to your repository on GitHub and tag your TA `@<TA's user name>` in the comment section of the commit.
       * Click on `commits`
       * Click on the last commit (top one)
-      * Scroll down to the comment section and tag your TA by entering `@<TA's user name>, I'm done`
+      * Scroll down to the comment section and tag your TA by entering `@nasseef, I'm done`
       * Click on the button: `Comment on this commit`
 
 
