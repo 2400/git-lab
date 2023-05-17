@@ -24,7 +24,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ### Requirement
 
-Make sure you have a GitHub account, and your (Personal Access Token has been setup)[https://github.com/nasseef/cs/blob/main/docs/GitHub-token.md].
+Make sure you have a GitHub account, and your [Personal Access Token has been setup](https://github.com/nasseef/cs/blob/main/docs/GitHub-token.md).
 
 ---
 
