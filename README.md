@@ -204,7 +204,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
       git branch -M main
       git push -u origin main
       ```
-    > These commands will also rename your `master ` branch to `main`
+    > These commands will also give your branch the name `main`
     
     Watch the output to make sure you did not get any errors. Your repo should be updated on GitHub. Refresh your browser to see your `README.md` and `answers.md` files on GitHub.
 
@@ -218,7 +218,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git commit -m "Enter a message here"
     git push
     ```
-    > You may have to enter your GitHub credentials here.
+    > You may have to enter your GitHub credentials (token) here.
 
 10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 107`. At the bottom add a commit message and commit your changes.
 
@@ -252,7 +252,7 @@ The `git clone` command downloads an existing repository to your local machine. 
     * click on the clone button and copy the link
     * Open a terminal window and go to your 2400 directory and clone the repository. You will normally do this for most homework projects.
         ```console
-        cd ~/2400
+        cd ~/2400 
         git clone <link you copied above>
         ```
     * This should download the repository directory to you machine. The directory should be called `git-lab-2`.
@@ -310,7 +310,8 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Go to your repository on GitHub and tag your TA `@<TA's user name>` in the comment section of the commit.
       * Click on `commits`
       * Click on the last commit (top one)
-      * Scroll down to the comment section and tag your TA by entering `@nasseef, I'm done`
+      * Ask your TA for their GitHub user name and use it in the next step
+      * Scroll down to the comment section and tag your TA by entering `@TA-USER-NAME, I'm done`
       * Click on the button: `Comment on this commit`
 
 
