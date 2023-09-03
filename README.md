@@ -39,6 +39,13 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
 2. Create two empty (Markdown files) `README.md` and `answers.md`. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in `answers.md`.
 
+    - For Mac/Linux/WSL issue the commands:
+     
+       ```console
+       touch README.md
+       touch answers.md
+       ```
+
     - For Windows computers issue the command:
   
       ```console
@@ -46,12 +53,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
       echo "" >> answers.md
       ```
 
-    - For Mac/Linux issue the commands:
-     
-       ```console
-       touch README.md
-       touch answers.md
-       ```
+    
 
 3. In a terminal window find out what version of git is installed on the system.
 
@@ -92,7 +94,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
 ---
 
-6. In a terminal/PowerShell window go to the `git-lab` directory.
+6. In a terminal window go to the `git-lab` directory.
 
     ```console
     cd git-lab
@@ -100,7 +102,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     We will use the directory `git-lab` as our local repository. Issue the command:
 
     ```console
-    ls -a       (Mac/Linux)
+    ls -a       (Mac/Linux/WSL)
     gci         (Windows)
     ```
 
@@ -185,7 +187,8 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     * Do not select anything else.
     * Click on `Create repository` button.
     * Now you have an empty repository called `git-lab`. You should see three instructions on how to `push an existing repository from the command line`. These are the commands you need to push your local repository to GitHub.
-    * Let's try the commands:
+    * Let's try the commands (replace \<user-name> with your github user name without \<>):
+
 
 
       ```console
